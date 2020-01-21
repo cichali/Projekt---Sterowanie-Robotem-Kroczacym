@@ -12,4 +12,8 @@ roslaunch darwin_gazebo darwin_gazebo.launch
 ```
 2. Rozpoczęcie symulacji przyciskiem Play
 3. Wstawienie przeszkód w postaci obiektów "Sphere", na płaszczyźnie wytyczonej pomiędzy zieloną i czerwoną osią w Gazebo. Przeszkoda nie może znajdować się na punkcie celu dla robota (domyślnie: robotGoal = [5, 8])
-4. Uruchomienie skryptu "sterowanie_robot" w MatLab
+4. Uruchomienie komunikacji MatLab z ROS
+```
+rosinit
+```
+5. Uruchomienie skryptu "sterowanie_robot" w MatLab
